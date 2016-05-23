@@ -78,7 +78,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
 
-  #required for Heroku
-  #set to actual host
-  config.action_mailer.default_url_options = { host: => 'omr-poidog-pinteresting.herokuapp.com' }
+  #Required to push to Heroku
+  config.action_mailer.default_url_options = { :host => 'omr-poidog-pinteresting.heroku.com' }
 end
