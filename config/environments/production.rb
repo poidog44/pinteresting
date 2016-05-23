@@ -80,5 +80,5 @@ Rails.application.configure do
 
   #required for Heroku
   #set to actual host
-  config.action_mailer.default_url_options = { host: => 'omr-poidog-pinteresting.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: => 'herokuapp.com }
 end
